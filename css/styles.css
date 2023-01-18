@@ -3,7 +3,8 @@
 }
 body {
   background-color: aqua;
-  width: 40%;
+  width: 50%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
   font-family: Arial, Helvetica, sans-serif;
@@ -43,9 +44,6 @@ nav {
   padding: 10px;
 }
 
-input {
-  display: block;
-}
 main {
   background-color: #d1beae;
   border-bottom: 1px solid mediumorchid;
@@ -66,4 +64,10 @@ main > ul {
 header > ul > li {
   display: flex;
   display: inline;
+}
+article {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
 }
