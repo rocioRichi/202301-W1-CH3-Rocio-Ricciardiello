@@ -81,11 +81,25 @@ span {
 }
 section {
   padding-bottom: 200px;
+  padding-right: 10px;
+  font-size: x-large;
+  font-weight: lighter;
 }
 img {
   padding: 20px;
 }
 
+article > span:nth-child(1n) {
+  font-weight: 600;
+}
+article > span:nth-child(3n) {
+  color: lime;
+}
 nav:nth-child(2n) {
-  font-size: large;
+  font-size: x-large;
+}
+article > span{
+  display: flex;
+  align-items: flex-end;
+}
 }
