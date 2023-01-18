@@ -28,12 +28,11 @@ button {
   height: 30px;
   width: 30px;
   border-radius: 50%;
-  background-color: blueviolet;
+  background-color: #551d8c;
   border: 0ch;
   font-size: larger;
   font-weight: 900;
-
-  color: white;
+  color: #cf9d75;
 }
 nav {
   display: flex;
@@ -51,7 +50,7 @@ main {
 footer {
   display: flex;
   justify-content: center;
-  background-color: green;
+  background-color: #5469a6;
 }
 section {
   display: flex;
@@ -82,4 +81,11 @@ span {
 }
 section {
   padding-bottom: 200px;
+}
+img {
+  padding: 20px;
+}
+
+nav:nth-child(2n) {
+  font-size: large;
 }
