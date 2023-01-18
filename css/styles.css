@@ -92,14 +92,15 @@ img {
 article > span:nth-child(1n) {
   font-weight: 600;
 }
-article > span:nth-child(3n) {
-  color: lime;
-}
+
 nav:nth-child(2n) {
   font-size: x-large;
 }
-article > span{
+article > span {
   display: flex;
   align-items: flex-end;
 }
+article > label > span {
+  text-decoration: line-through;
+  font-weight: 100;
 }
