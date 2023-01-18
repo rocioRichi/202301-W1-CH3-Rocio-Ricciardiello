@@ -1,7 +1,32 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   background-color: aqua;
+  width: 60%;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  display: flex;
+  align-items: center;
+}
+button {
+  height: 10px;
+  border-radius: 20%;
+  background-color: blueviolet;
+  border: 0ch;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
 }
